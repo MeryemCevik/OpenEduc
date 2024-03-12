@@ -1,0 +1,44 @@
+- Nous sommes membre de la société AlsaNum (voir annexe sur cette société)
+- Notre 1er partenaire est l'APEA (Association de Parents d'Elèves d'Alsace). C'est un intermédiaire entre les parents et le personnel pédagogique.
+- Notre interlocuteur : M. Laurent Hatt -> secrétaire général de l'association.
+  |-> Ses interlocuteurs :
+	o Directeur d'école
+	o Inspection de circonscription
+	o Le maire ou représentant de l'aspect scolaire
+	o Un membre de l'APEA référent de l'école
+- Ecoles maternelles et élémentaires
+- Environnement technologique :
+	o IDE : Eclipse avce extension PHP
+	o Environnement WAMP : Uwamp
+	o Versionning : GitHub
+	o Outils de modélisation :______________
+	o Gestion de projet : méthode SCRUM
+
+- Pages :
+	Page d'acceuil :
+	Liens vers les autres pages : (Reprendre le fichier de Betül (finalité du projet))
+		o Finalité du projet - Présenter la finalité du projet
+		o Partenaires du projet - Présentation de notre premier partenaire (APEA)
+		o Données réglementaires - RGPD
+		o Rendre les données des écoles disponnible (en accès publique)
+	Page de connexion :
+		o Créer un espace d'administration : 
+			- Le compte du secrétaire général + un compte pour nous, développeur
+		o Créer un espace référent :
+			- Le compte référent -> représentatant des écoles
+
+Stockage des données :
+	o Base de données PHPmyadmin - données des fichiers annexe
+	o Elément de la base de données :
+1. Année scolaire : Indique l'année scolaire correspondante aux données.
+2. Identifiant : Identifiant spécifique à l'école pour la reconnaissance et le suivi.
+3. Adresse : Adresse physique de l'école.
+4. Date de mise à jour : Date à laquelle les informations ont été mises à jour pour la dernière fois.
+5. Téléphone : Numéro de téléphone de l'école.
+6. Email : Adresse e-mail de l'école.
+7. Correspondant local APEA : Informations sur le correspondant local de l'APEA pour cette école.
+8. Niveau(x) et Nom de la classe : Détails sur chaque niveau de classe et le nom des enseignants associés.
+9. Effectifs : Nombre d'élèves dans chaque classe, ainsi que le total des effectifs de l'école.
+10. Moyenne par classe : Moyenne du nombre d'élèves par classe.
+11. École primaire : Nom de l'école.
+

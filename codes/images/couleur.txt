@@ -1,0 +1,4 @@
+#e0d7c6 - beige
+#012f46 -bleu foncé
+#fb9103 - orange
+#36d3fe - bleu clair
