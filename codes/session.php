@@ -5,22 +5,26 @@
       header("location:login.php");
       exit();
    }
-   if(date("H")<18) //si lheure est plus petit que 18 cest le matin
-      $bienvenue="Bonjour et bienvenue ".
-      $_SESSION["prenomNom"].
-      " dans votre espace personnel";
-   else //siono on est le soir
-      $bienvenue="Bonsoir et bienvenue ".
-      $_SESSION["prenomNom"].
-      " dans votre espace personnel";  
-?>
+   // Récupération de l'ID de l'utilisateur
+   $id_utilisateur = $_SESSION["id_utilisateur"];
+   ?>
+
 <!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8" />
-   </head>
-   <body onLoad="document.fo.login.focus()"><!--on execute le formulaire fo de la page login.php-->
-      <h2><?php echo $bienvenue?></h2>
+<html lang="fr">
+<?php
+include "header.php";
+?>
+   <body><!--on execute le formulaire de la page login.php-->
+      <?php
+      include "menu.php";
+      ?>
+      <h1>Page de session</h1>
+      
+      <a href="Profil.php">Mon profil</a>
       <a href="deconnexion.php">Se déconnecter</a> <!--un lien qui réference à la page deonnexion-->
+      <p>Identifiant de l'utilisateur : <?php echo $id_utilisateur; ?></p>
+   <?php
+    include "footer.php";
+    ?>
    </body>
 </html>

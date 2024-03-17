@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0d7c6;
+}
+header {
+    background-color: #065981;
+    padding: 15px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Login button styles */
+.login-button {
+    background-color: #d66704;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #0383cc;
+}
+
+/* Footer styles */
+footer {
+    background-color: #065981;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.logo_menu_cnx {
+    width: 150px;
+}
+
+.a {
+    background-color: #065981;
+    padding: 15px; 
+    text-align: center;
+}
+
+.container_cnx {
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid #065981;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container_cnx h1 {
+    color: #065981;
+}
+
+.container_cnx .erreur {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.container_cnx input[type="text"],
+.container_cnx input[type="password"],
+.container_cnx input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container_cnx input[type="submit"] {
+    background-color: #065981;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container_cnx input[type="submit"]:hover {
+    background-color: #044c6d;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+/* Faire pour menu session
+
+https://www.pierre-giraud.com/html-css-apprendre-coder-cours/creation-menu-deroulant/*/
