@@ -113,35 +113,53 @@ footer {
     background-color: #044c6d;
 }
 
-.sous{
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
+table{
+    border-collapse: collapse;
 }
-nav > ul li:hover .sous{
-    display: block;
-}
-.sous li{
-    float: none;
-    width: 100%;
-    text-align: left;
-}
-.sous a{
+  
+th, td{
+    border: 1px solid black;
     padding: 10px;
-    border-bottom: none;
-}
-.sous a:hover{
-    border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
-}
-.deroulant > a::after{
-    content:" ▼";
-    font-size: 12px;
 }
 
-/* Faire pour menu session
+.navModifAjouter {
+    text-align: center;
+    padding: 10px;
+}
 
-https://www.pierre-giraud.com/html-css-apprendre-coder-cours/creation-menu-deroulant/*/
+.navModifAjouter a {
+    display: inline-block;
+    padding: 12px 24px; 
+    margin: 0 10px; 
+    text-decoration: none;
+    color: white;
+    background-color: #044c6d;
+    border: 2px solid #044c6d; 
+    border-radius: 8px; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    transition: all 0.3s ease; 
+}
+
+.navModifAjouter a:hover {
+    background-color: #1175a7; 
+    border-color: #1175a7;
+}
+
+p {
+    width:800pt;
+    margin-bottom:10px;
+    font-size: large;
+    margin-left: 40px;
+  }
+  
+button{
+    margin-left: 10px;
+    color: white;
+    background-color: #1175a7;
+    border-radius: 8px;
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    transition: all 0.3s ease; 
+}
+

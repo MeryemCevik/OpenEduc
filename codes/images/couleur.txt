@@ -2,3 +2,4 @@
 #012f46 -bleu foncé
 #fb9103 - orange
 #36d3fe - bleu clair
+#065981 - bleu ni clair ni foncé
